@@ -1,27 +1,7 @@
-// #include <Arduino.h>
-
-// // the setup function runs once when you press reset or power the board
-// void setup() {
-// // initialize digital pin LED_BUILTIN as an output.
-// pinMode(LED_BUILTIN, OUTPUT);
-// pinMode(LED_BUILTIN_RX,OUTPUT);
-
-
-// }
-// // the loop function runs over and over again forever
-// void loop() {
-// digitalWrite(LED_BUILTIN, HIGH);
-// digitalWrite(LED_BUILTIN_RX , LOW);
-// delay(1000); 
-// digitalWrite(LED_BUILTIN, LOW); 
-// digitalWrite(LED_BUILTIN_RX , HIGH);
-// delay(1000);
-// }
-
 include <FastLED.h>
 
 //
-// Mark's xe coordinate mapping code. See the XYMatrix for more information on it.
+// Mark's xy coordinate mapping code. See the XYMatrix for more information on it.
 //
 //
 
